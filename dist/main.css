@@ -1,0 +1,208 @@
+/*!*******************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./style/style.css ***!
+  \*******************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap);
+/*!***********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./style/style.css (1) ***!
+  \***********************************************************************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.header{
+    position: sticky;
+    top: 0;
+    background: #fff;
+}
+.container_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+    height: 116px;
+}
+
+
+.container_header-logo_text, .container_header-nav_link{
+color:#1C2A39;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal
+}
+
+.container_header-nav_link{
+    color: #5C6A79;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+
+.link_bold{
+    color: #1C2A39;
+    font-weight: 900;
+}
+
+.container_header-nav_link:hover, .container_header-nav_icons:hover{
+  cursor: pointer;
+}
+
+.slider{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 0 auto;
+    grid-area: slider;
+}
+
+.container_slider{
+    width: 1120px;
+    height: 702px;
+    margin: 0 auto;
+}
+
+.container_slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.container_slider-img{
+    width: 100%;
+    height: 100%;
+    background: black;
+    margin-bottom: 17px;
+}
+
+.main{
+    width: 1440px;
+    grid-area: main;
+}
+
+.aside{
+    left: 0;
+    width: 416px;
+    height: 710px;
+    background: #EFEEF6;
+    grid-area: aside;
+}
+
+.aside_container-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 23px;
+    padding-top: 45px;
+    padding-bottom: 81px;
+}
+
+
+.aside_container-li{
+    color:#5C6A79;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.active_li{
+    color: #1C2A39;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.btn{
+    width: 176px;
+    height: 45px;
+    border: 1px solid #4C3DB2;
+    color: #4C3DB2;
+    background-color: white;
+}
+
+.wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "slider slider slider"
+    "aside main main"
+    ;
+}
+
+.main_element_book-list{
+    display: flex;
+    justify-content: start;
+    margin-left: 150px;
+    gap: 45px;
+}
+
+.img_card{
+    width: 474px;
+    height: 327px;
+    background: black;
+    margin-bottom: 17px; 
+    margin-right: 36px;
+}
+
+.main_books-element, .main_books-element2{
+    width: 424px;
+    height: 300px;
+    display: flex;
+    grid-area: book;
+}
+
+.footer{
+   display: flex;
+   justify-content: center;
+}
+
+.footer-btn{
+    color: #4C3DB2;
+    width: 176px;
+    height: 45px;
+
+    font-family: Montserrat;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: 1px solid #4C3DB2;
+    background-color: white;
+}
+
+/* .main_books-cotiner{
+    display: grid;
+    grid-template-columns: 416px 424px 424px;
+    justify-content: center;
+    grid-template-areas:  
+    "aside book book2"
+    ;
+
+}
+
+
+
+.main_books-element2{
+    grid-area: book2;
+} */
