@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/dist/main.css">
+  <link rel="stylesheet" href="main.css">
   <title>Document</title>
 </head>
 <body>
@@ -22,6 +22,7 @@
       </nav>
 
       <div class="container_header-nav_icons">
+        <p class="red"></p>
         <svg xmlns="http://www.w3.org/2000/svg" width="121" height="17" viewBox="0 0 121 17" fill="none">
           <mask id="path-1-inside-1_24_4" fill="white">
           <path fill-rule="evenodd" clip-rule="evenodd" d="M113 1H115C116.105 1 117 1.89543 117 3V5H111V3C111 1.89543 111.895 1 113 1ZM110 5V3C110 1.34315 111.343 0 113 0H115C116.657 0 118 1.34315 118 3V5H118.216C119.261 5 120.129 5.80364 120.21 6.84491L120.832 14.8449C120.923 16.0071 120.004 17 118.838 17H109.162C107.996 17 107.077 16.0071 107.168 14.8449L107.79 6.84491C107.871 5.80364 108.739 5 109.784 5H110ZM118 6H110H109.784C109.262 6 108.827 6.40182 108.787 6.92245L108.165 14.9225C108.119 15.5035 108.579 16 109.162 16H118.838C119.421 16 119.881 15.5035 119.835 14.9225L119.213 6.92246C119.173 6.40182 118.738 6 118.216 6H118Z"/>
@@ -50,10 +51,8 @@
       </div>
       <div class="slider__dots">
 
-        <svg xmlns="http://www.w3.org/2000/svg" width="56" height="12" viewBox="0 0 56 12" fill="none">
-          <circle cx="6" cy="6" r="6" fill="#9E98DC"/>
-          <circle cx="28" cy="6" r="6" fill="#EFEEF6"/>
-          <circle cx="50" cy="6" r="6" fill="#EFEEF6"/>
+        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="30" viewBox="0 0 70 22" fill="none" class="con_slid_dot">
+          
 
           </svg>
       </div>
@@ -61,57 +60,32 @@
 
 </div>
 
+<div class="poster_container">
+  <a href="">
+    <div class="poster_container-element_one">
+      <p class="poster_container-element_text text_one">
+        Change old book on new
+      </p>
+      <img class="arrow" src="/img/arrow.svg" alt="">
+    </div>
+  </a>
+      
+  <a href="">
+    <div class="poster_container-element_two">
+      <p class="poster_container-element_text text_two">
+        top 100 books 2022
+      </p>
+      <img class="arrow" src="/img/arrow.svg" alt="">
+    </div>
+  </a>
+  
+</div>
+
 <main class="main">
   <div class="main_element container">
 
     <div class="main_element_book-list">
-
-      <div class="main_books-element">
-        <div class="img_card"></div>
-
-        <div class="main_books-element_info">
-
-          <p class="books-element_info-head">qqqqqqqq</p>
-
-          <div class="grade">
-            <div class="stars"></div>
-            <p class="number_and_text"> 252 reveiw</p>
-          </div>
-
-          <p class="discription">
-            the outrageously funny debut novel about three super-rich, 
-          </p>
-
-          <p class="price">4.99</p>
-
-          <button class="btn">but</button>
-
-        </div>
-      </div>
-
-      <div class="main_books-element">
-        <div class="img_card"></div>
-
-        <div class="main_books-element_info">
-
-          <p class="books-element_info-head">qqqqqqqq</p>
-
-          <div class="grade">
-            <div class="stars"></div>
-            <p class="number_and_text"> 252 reveiw</p>
-          </div>
-
-          <p class="discription">
-            the outrageously funny debut novel about three super-rich,
-          </p>
-
-          <p class="price">4.99</p>
-
-          <button class="btn">but</button>
-
-        </div>
-      </div>
-
+      
     </div>
 
   </div>
@@ -120,22 +94,22 @@
 <aside class="aside">
   <div class="aside_container">
     <ul class="aside_container-ul">
-      <li class="aside_container-li active_li">Architecture</li>
-      <li class="aside_container-li">Art & Fashion</li>
-      <li class="aside_container-li">Biography</li>
-      <li class="aside_container-li">Business</li>
-      <li class="aside_container-li">Crafts & Hobbies</li>
-      <li class="aside_container-li">Drama</li>
-      <li class="aside_container-li">Fiction</li>
-      <li class="aside_container-li">Food & Drink</li>
-      <li class="aside_container-li">Health & Wellbeing</li>
-      <li class="aside_container-li">History & Politics</li>
-      <li class="aside_container-li">Humor</li>
-      <li class="aside_container-li">Poetry</li>
-      <li class="aside_container-li">Psychology</li>
-      <li class="aside_container-li">Science</li>
-      <li class="aside_container-li">Technology</li>
-      <li class="aside_container-li">Travel & Maps</li>
+      <button class="aside_container-li active_li" value="Architecture">Architecture</button>
+      <button class="aside_container-li" value="Art&Fashion">Art & Fashion</button>
+      <button class="aside_container-li" value="Biography">Biography</button>
+      <button class="aside_container-li" value="Business">Business</button>
+      <button class="aside_container-li" value="Hobbies">Crafts & Hobbies</button>
+      <button class="aside_container-li" value="Drama">Drama</button>
+      <button class="aside_container-li" value="Fiction">Fiction</button>
+      <button class="aside_container-li" value="Food&Drink">Food & Drink</button>
+      <button class="aside_container-li" value="Health&Wellbeing">Health & Wellbeing</button>
+      <button class="aside_container-li" value="History&Politics">History & Politics</button>
+      <button class="aside_container-li" value="Humor">Humor</button>
+      <button class="aside_container-li" value="Poetry">Poetry</button>
+      <button class="aside_container-li" value="Psychology">Psychology</button>
+      <button class="aside_container-li" value="Science">Science</button>
+      <button class="aside_container-li" value="Technology">Technology</button>
+      <button class="aside_container-li" value="Travel&Maps">Travel & Maps</button>
     </ul>
   </div>
 </aside>
@@ -153,6 +127,6 @@
   
 
   
-  <script src="/dist/main.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>

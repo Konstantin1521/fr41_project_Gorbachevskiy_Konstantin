@@ -2,6 +2,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin")
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { options } = require('yargs')
+const path = require("path");
+
 
 module.exports = {
     entry: './src/index.js',
@@ -22,6 +24,15 @@ module.exports = {
         //   }
         // }
         ]
+      },
+      devServer: {
+        static: {
+          directory: path.join(__dirname, "dist"),
+        },
+        stats: {
+          children: false,
+          modulesSpace: 0,
+        },
       },
       optimization: {
         minimizer: [
