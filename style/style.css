@@ -74,6 +74,7 @@ line-height: normal;
     width: 1120px;
     height: 702px;
     margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 .container_slider{
@@ -86,13 +87,12 @@ line-height: normal;
 .container_slider-img{
     width: 100%;
     height: 100%;
-    /* background: black; */
     margin-bottom: 17px;
 }
 
 .active{
-    width: 99%;
-    height: 99%;
+    width: 1120px;
+    height: 702px;
     background-repeat: no-repeat;
 }
 
@@ -220,8 +220,8 @@ line-height: normal;
 
 .main_element_book-list{
     display: flex;
-    justify-content: start;
-    margin-left: 150px;
+    width: 1200px;
+    justify-content: center;
     gap: 45px;
     flex-wrap: wrap;
 }
@@ -234,6 +234,12 @@ line-height: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
+}
+
+.burg_link{
+    width: 15px;
+    height: 15px;
+    display: none;
 }
 
 .img_card{
@@ -276,6 +282,7 @@ line-height: normal;
 .footer{
    display: flex;
    justify-content: center;
+   bottom: 0;
 }
 
 .footer-btn{
@@ -323,19 +330,3 @@ line-height: normal;
     text-transform: capitalize;
     text-align: center;
 }
-
-/* .main_books-cotiner{
-    display: grid;
-    grid-template-columns: 416px 424px 424px;
-    justify-content: center;
-    grid-template-areas:  
-    "aside book book2"
-    ;
-
-}
-
-
-
-.main_books-element2{
-    grid-area: book2;
-} */

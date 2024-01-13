@@ -8,7 +8,6 @@ const urlApi = `https://www.googleapis.com/books/v1/`
 
 listCategory.forEach(list =>{
     list.dataset.id = list.getAttribute('value')
-    // console.log(list.dataset.id);
 })
 
 categoryList.addEventListener('click', getCategoryBook)
@@ -16,7 +15,6 @@ categoryList.addEventListener('click', getCategoryBook)
 
 function getCategoryBook(e){
     e.preventDefault()
-    // console.log(e.target.dataset.id)
 
   if (e.target.dataset.id){
     getCategoryInfoHTTP(e.target.dataset.id, renderBooks)
@@ -62,7 +60,6 @@ function renderBooks(response){
     console.log(response);
     let fragment = ''
     response.items.forEach( book => {
-        // console.log( book.saleInfo.retailPrice.amount);
         const card = cardTemplate(book)
         fragment += card
     })

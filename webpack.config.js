@@ -16,13 +16,6 @@ module.exports = {
           { test: /\.s?css$/,
           use: [MiniCssExtractPlugin.loader, 'css-loader'],
         },
-        // {
-        //     test: /\.pug$/,
-        //   loader: 'pug-loader',
-        //   options: {
-        //   pretty: true
-        //   }
-        // }
         ]
       },
       devServer: {
@@ -43,11 +36,5 @@ module.exports = {
       },
       plugins: [
         new MiniCssExtractPlugin(),
-        // new HtmlWebpackPlugin(
-        //     {
-        //         template: "./src/index.pug",
-        //         filename: 'index.html',
-        // }
-        // )
     ]
 }
