@@ -1,9 +1,9 @@
 let images = [{
-    url: "../img/banner.svg",
+    url: "../src/img/banner.svg",
   }, {
-    url: "../img/banner2.svg",
+    url: "../src/img/banner2.svg",
   }, {
-    url: "../img/banner3.svg",
+    url: "../src/img/banner3.svg",
   },
 ];
 

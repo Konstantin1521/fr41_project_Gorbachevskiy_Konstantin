@@ -121,55 +121,55 @@ function truncateString(str, maxLength) {
     if(num == 1){
       return `
       <div class='img_stars-container'>
-        <img class="img_stars" src="../img/star_full.svg">
-        <img class="img_stars" src="../img/star_emptiness.svg">
-        <img class="img_stars" src="../img/star_emptiness.svg">
-        <img class="img_stars" src="../img/star_emptiness.svg">
-        <img class="img_stars" src="../img/star_emptiness.svg">
+        <img class="img_stars" src="../src/img/star_full.svg">
+        <img class="img_stars" src="../src/img/star_emptiness.svg">
+        <img class="img_stars" src="../src/img/star_emptiness.svg">
+        <img class="img_stars" src="../src/img/star_emptiness.svg">
+        <img class="img_stars" src="../src/img/star_emptiness.svg">
         <p>${str} review</p>
       </div>
       `
     }else if(num == 2){
       return `
       <div class='img_stars-container'>
-        <img class="img_stars" src="../img/star_full.svg">
-        <img class="img_stars" src="../img/star_full.svg">
-        <img class="img_stars" src="../img/star_emptiness.svg">
-        <img class="img_stars" src="../img/star_emptiness.svg">
-        <img class="img_stars" src="../img/star_emptiness.svg">
+        <img class="img_stars" src="../src/img/star_full.svg">
+        <img class="img_stars" src="../src/img/star_full.svg">
+        <img class="img_stars" src="../src/img/star_emptiness.svg">
+        <img class="img_stars" src="../src/img/star_emptiness.svg">
+        <img class="img_stars" src="../src/img/star_emptiness.svg">
         <p>${str} review</p>
       </div>
       `
     }else if(num == 3){
       return `
       <div class='img_stars-container'>
-        <img class="img_stars" src="../img/star_full.svg">
-        <img class="img_stars" src="../img/star_full.svg">
-        <img class="img_stars" src="../img/star_full.svg">
-        <img class="img_stars" src="../img/star_emptiness.svg">
-        <img class="img_stars" src="../img/star_emptiness.svg">
+        <img class="img_stars" src="../src/img/star_full.svg">
+        <img class="img_stars" src="../src/img/star_full.svg">
+        <img class="img_stars" src="../src/img/star_full.svg">
+        <img class="img_stars" src="../src/img/star_emptiness.svg">
+        <img class="img_stars" src="../src/img/star_emptiness.svg">
         <p>${str} review</p>
       </div>
       `
     }else if(num == 4){
       return `
       <div class='img_stars-container'>
-        <img class="img_stars" src="../img/star_full.svg">
-        <img class="img_stars" src="../img/star_full.svg">
-        <img class="img_stars" src="../img/star_full.svg">
-        <img class="img_stars" src="../img/star_full.svg">
-        <img class="img_stars" src="../img/star_emptiness.svg">
+        <img class="img_stars" src="../src/img/star_full.svg">
+        <img class="img_stars" src="../src/img/star_full.svg">
+        <img class="img_stars" src="../src/img/star_full.svg">
+        <img class="img_stars" src="../src/img/star_full.svg">
+        <img class="img_stars" src="../src/img/star_emptiness.svg">
         <p>${str} review</p>
       </div>
       `
     }else if(num == 5){
       return `
       <div class='img_stars-container'>
-        <img class="img_stars" src="../img/star_full.svg">
-        <img class="img_stars" src="../img/star_full.svg">
-        <img class="img_stars" src="../img/star_full.svg">
-        <img class="img_stars" src="../img/star_full.svg">
-        <img class="img_stars" src="../img/star_full.svg">
+        <img class="img_stars" src="../src/img/star_full.svg">
+        <img class="img_stars" src="../src/img/star_full.svg">
+        <img class="img_stars" src="../src/img/star_full.svg">
+        <img class="img_stars" src="../src/img/star_full.svg">
+        <img class="img_stars" src="../src/img/star_full.svg">
         <p>${str} review</p>
       </div>
       `

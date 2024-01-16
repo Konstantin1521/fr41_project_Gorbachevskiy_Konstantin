@@ -314,7 +314,7 @@ line-height: normal;
 .circleRed{
     width: 13px;
     height: 13px;
-    background-image: url(/img/Ellipse\ 8.svg);
+    background-image: url(../img/Ellipse\ 8.svg);
     background-repeat: no-repeat;
     position: absolute;
     top: 6px;

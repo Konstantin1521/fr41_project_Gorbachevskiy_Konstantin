@@ -10,7 +10,7 @@ module.exports = {
     output: {
         filename: 'main.js'
     },
-    mode: 'development',
+    mode: 'production',
     module: {
         rules: [
           { test: /\.s?css$/,
