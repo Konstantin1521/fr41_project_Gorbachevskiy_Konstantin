@@ -57,7 +57,7 @@ function getBooks(cb){
 
 function renderBooks(response){
     container.textContent = ''
-    console.log(response);
+    // console.log(response);
     let fragment = ''
     response.items.forEach( book => {
         const card = cardTemplate(book)
